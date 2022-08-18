@@ -27,3 +27,8 @@ The original strategy(selecting variables based on correlation & logstic regress
 
 Tried to load them up in chunks, make prediction, delete, and repeat but memory limit was still an issue.
 Tried to learn using databases but was taking too long. (*need to learn this)
+
+Tried to use disk.frame but consistently getting:
+"Error in fst::write_fst(.SD, file.path(outdir, paste0(.BY, ".fst")), compress = compress) : 
+  There was an error during the write operation, fst file might be corrupted. Please check available disk space and access rights.
+In addition: Warning messages:"
