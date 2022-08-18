@@ -2,6 +2,8 @@
 Couldn't submit it due to memory limitation to load the test data(33GB)
 Training dataset's dimension ~ 5,000,000 x 190
 
+Source of data: https://www.kaggle.com/competitions/amex-default-prediction
+
 
 # Tasks Performed in the code
 
@@ -24,4 +26,4 @@ The original strategy(selecting variables based on correlation & logstic regress
 # Strategies Used to read the large dataset(33GB)
 
 Tried to load them up in chunks, make prediction, delete, and repeat but memory limit was still an issue.
-Tried to learn using databases but was taking too long.
+Tried to learn using databases but was taking too long. (*need to learn this)
